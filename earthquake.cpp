@@ -8,7 +8,7 @@ int main()
     cout << "Enter the earthquake magnitude: ";
     cin >> magnitude;
 
-    if (magnitude > 2.0)
+    if (magnitude < 2.0)
     {
         cout << "Micro earthquake" << endl;
     }
@@ -32,7 +32,7 @@ int main()
     {
         cout << "Major earthquake" << endl;
     }
-    else if (magnitude < 8.0)
+    else if (magnitude > 8.0)
     {
         cout << "Great earthquake" << endl;
     }
